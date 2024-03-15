@@ -1,0 +1,67 @@
+
+.icon-Menu-youHome{
+    display: inline-block;
+  }
+
+@media (max-width: 1200px){
+    .logo-youHome
+    {
+      width: 16%;
+      height: 138%;
+      position: absolute;
+      translate: -62px -47px;
+    }
+}
+
+/*Escritorio*/
+@media (min-width: 1199.98px)  {
+    /*body{background: red;}*/
+    .logo-youHome
+    {
+      width: 16%;
+      height: 138%;
+      position: absolute;
+      translate: -62px -47px;
+    }
+}
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    /*body{background: orange;}*/
+    .logo-youHome
+    {
+    display: none;
+    }
+}
+
+/*landscape*/
+@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+    /*body{background: blue;}*/
+    .logo-youHome
+    {
+    display: none;
+    }
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+    /*body{background: green;}*/
+    .logo-youHome
+    {
+    display: none;
+    }
+ }
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+    /*body{background: black;}*/
+    .logo-youHome
+    {
+    display: none;
+    }
+}
+/*fin movil*/
