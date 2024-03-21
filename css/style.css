@@ -2662,14 +2662,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #DFB163;
-  border-color: #DFB163;
+  color: #4C6653;
+  border-color: #4C6653;
 }
 
 .btn-outline-primary:hover {
-  color: #212529;
-  background-color: #DFB163;
-  border-color: #DFB163;
+  color: #4C6653;
+  background-color: #C4CFCA;
+  border-color: #4C6653;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2677,15 +2677,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #DFB163;
+  color: #B9BAB9;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
-  color: #212529;
-  background-color: #DFB163;
-  border-color: #DFB163;
+  color: #4C6653;
+  background-color: #C4CFCA;
+  border-color: #4C6653;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -4066,9 +4066,9 @@ input[type="button"].btn-block {
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
-  line-height: 1;
+  line-height: 0;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -4296,8 +4296,10 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler {
+  /*
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1);
+  */
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -4344,8 +4346,10 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+
+  color: rgb(255 255 255 / 99%);
+  border-color: rgb(255 255 255 / 99%);
+
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -9482,7 +9486,7 @@ h6 {
   left: 0;
   width: 45px;
   height: 3px;
-  background: #DFB163;
+  background: #C4CFCA;
 }
 
 [class^=flaticon-]:before,
@@ -9540,7 +9544,7 @@ h6 {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #DFB163;
+  color: #C4CFCA;
 }
 
 @media (max-width: 991.98px) {
@@ -9654,9 +9658,9 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #DFB163;
+  color: #4C6653;
   background: transparent;
-  border: 1px solid #DFB163;
+  border: 1px solid #4C6653;
   font-size: 22px;
   transition: .3s;
 }
@@ -9664,7 +9668,7 @@ h6 {
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
   color: #252531;
-  background: #DFB163;
+  background: #C4CFCA;
 }
 
 .contact-form .help-block ul {

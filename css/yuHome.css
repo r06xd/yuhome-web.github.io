@@ -1,6 +1,7 @@
 
 .icon-Menu-youHome{
     display: inline-block;
+    width: 40%;
   }
 
 @media (max-width: 1200px){
@@ -23,6 +24,9 @@
       position: absolute;
       translate: -62px -47px;
     }
+    pr-3{
+      padding-right: 1rem !important;
+      }
 }
 /*Fin Escritorio*/
 
@@ -34,6 +38,10 @@
     {
     display: none;
     }
+
+    .pr-3{
+    padding-right: 0.5rem !important;
+    }
 }
 
 /*landscape*/
@@ -43,6 +51,9 @@
     {
     display: none;
     }
+    pr-3{
+      padding-right: 0.5rem !important;
+      }
 }
 /*fin tablet*/
 
@@ -55,6 +66,9 @@
     {
     display: none;
     }
+    pr-3{
+      padding-right: 0.5rem !important;
+      }
  }
 /*landscape*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
@@ -63,5 +77,8 @@
     {
     display: none;
     }
+    pr-3{
+      padding-right: 0.5rem !important;
+      }
 }
 /*fin movil*/
