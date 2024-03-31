@@ -1,7 +1,8 @@
 
 .icon-Menu-youHome{
     display: inline-block;
-    width: 40%;
+    width: 45%;
+    translate: 0px 10%;
   }
 
 @media (max-width: 1200px){
@@ -69,6 +70,17 @@
     pr-3{
       padding-right: 0.5rem !important;
       }
+      .display-3{
+        font-size:calc(1.575rem + -0.1vw);
+      }
+      .navbar-yu-hombe{
+        margin:-10% 0px;
+      }
+      .info-yu-home{
+        margin: 0px;
+        font-size: 0.9rem;
+      }
+
  }
 /*landscape*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
