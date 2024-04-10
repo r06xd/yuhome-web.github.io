@@ -5,6 +5,10 @@
     translate: 0px 10%;
   }
 
+.borderOpSelect{
+  border-bottom: 1px solid;
+}
+
 @media (max-width: 1200px){
     .logo-youHome
     {
@@ -12,6 +16,9 @@
       height: 138%;
       position: absolute;
       translate: -62px -47px;
+    }
+    .underNavStar-YuHome{
+      margin-top: 3%;
     }
 }
 
@@ -28,6 +35,9 @@
     pr-3{
       padding-right: 1rem !important;
       }
+    .underNavStar-YuHome{
+      margin-top: 3%;
+    }
 }
 /*Fin Escritorio*/
 
@@ -43,6 +53,10 @@
     .pr-3{
     padding-right: 0.5rem !important;
     }
+    
+    .underNavStar-YuHome{
+      margin-top: 5%;
+    }
 }
 
 /*landscape*/
@@ -55,6 +69,9 @@
     pr-3{
       padding-right: 0.5rem !important;
       }
+    .underNavStar-YuHome{
+      margin-top: 5%;
+    }
 }
 /*fin tablet*/
 
@@ -81,6 +98,10 @@
         font-size: 0.7rem;
       }
 
+      .underNavStar-YuHome{
+        margin-top: 15%;
+      }
+
  }
 /*landscape*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
@@ -92,5 +113,9 @@
     pr-3{
       padding-right: 0.5rem !important;
       }
+
+    .underNavStar-YuHome{
+      margin-top: 15%;
+    }
 }
 /*fin movil*/
